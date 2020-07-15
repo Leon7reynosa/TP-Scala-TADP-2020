@@ -1,0 +1,17 @@
+El Festival de Invierno
+
+TADP - 2020 C1 - TP Funcional-Objetos
+
+Entrega Individual
+El objetivo de esta entrega es extender el trabajo práctico grupal para agregar una nueva funcionalidad. Este agregado debe hacerse utilizando las herramientas vistas en clase, teniendo especial cuidado de no romper la funcionalidad provista en la entrega anterior.
+
+Fechas pospuestas por lluvia
+
+Como dijimos antes, la isla de Berk se caracteriza por tener un clima muy inestable, tanto es así que puede pasar que no se jueguen algunas postas de un torneo por días de lluvia. Queremos implementar esto de manera que los torneos ahora funcionen de la siguiente manera:
+
+A la hora de jugar una posta puede que llueva o no ese día, hay un 20% de posibilidad de que llueva.[1]
+Las lluvias en Berk duran 3 días, por lo que si llueve antes de una posta, esa y las dos postas siguientes no se juegan.
+Después de que pasan los días de lluvia se sigue jugando el torneo normalmente (volviendo a tener en cuenta que puede llover).
+Si en algún momento el torneo se queda sin postas y sigue lloviendo, se elige el ganador entre los participantes que estaban en ese momento según las reglas del torneo.
+
+[1] pueden usar math.random para obtener un número aleatorio entre 0 y 1
